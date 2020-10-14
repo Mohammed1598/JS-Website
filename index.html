@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Js Weebsite</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Start Setting section -->
+    <div class="setting-box">
+      <div class="toggle-spin">
+        <i class="fa fa-gear fa-spin setting-icon "></i>
+      </div>
+      <div class="setting-content">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors">
+            <li class="active color" data-color="#ff0d0d"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Background</h4>
+          <div class="backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bulllets</h4>
+          <div class="show-bullets">
+            <span class="yes active" data-display="show">Show</span>
+            <span class="no" data-display="hide">Hide</span>
+          </div>
+        </div>
+        <button class="rest-option">Rest Option</button>
+      </div>
+    </div>
+    <!-- End Setting section -->
+
+    <!-- Start Nav Bullets section -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About US</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallary">
+        <div class="tooltip">Gallary</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">TimeLine</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonal">
+        <div class="tooltip">Testimonal</div>
+      </div>
+    </div>
+    <!-- Start Nav Bullets section -->
+
+    <!-- Start landing section -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Naguib</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallary">Gallary</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonal">Testimonal</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>we are <span>creative</span> Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+          nesciunt laudantium eveniet. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Pariatur nesciunt laudantium eveniet
+        </p>
+      </div>
+    </div>
+    <!-- End landing section -->
+
+    <!-- Start About section -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            quo, hic autem soluta veritatis recusandae. Repellat, ut molestiae.
+            Officiis deserunt libero voluptate minima rerum ipsam voluptatibus
+            velit iste adipisci ut!
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="images/about-us.png" alt="Photo" />
+        </div>
+      </div>
+    </div>
+    <!-- End  About section -->
+
+    <!-- Start Skills section -->
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Javascript</div>
+          <div class="skill-progress">
+            <span data-progress="30%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">React Js</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Sass</div>
+          <div class="skill-progress">
+            <span data-progress="30%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Pug Js</div>
+          <div class="skill-progress">
+            <span data-progress="100%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Skills section -->
+
+    <!-- Start Gallary section -->
+    <div class="gallary">
+      <div class="container">
+        <h2>Out Gallary</h2>
+        <div class="img-box">
+          <img src="images/01.jpeg" alt="Image 1" />
+          <img src="images/02.jpeg" alt="Image 2" />
+          <img src="images/03.jpeg" alt="Image 3" />
+          <img src="images/04.jpeg" alt="Image 4" />
+          <img src="images/05.jpeg" alt="Image 5" />
+          <img src="images/05.jpeg" alt="Image 6" />
+          <img src="images/04.jpeg" alt="Image 7" />
+          <img src="images/03.jpeg" alt="Image 8" />
+          <img src="images/02.jpeg" alt="Image 9" />
+          <img src="images/01.jpeg" alt="Image 10" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallary section -->
+
+    <!-- Start Time line Section -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt impedit officia, qui hic omnis asperiores explicabo
+                alias eius commodi eligendi autem quibusdam veniam rerum
+                dignissimos voluptatum, quas tenetur repellendus vero.
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt impedit officia, qui hic omnis asperiores explicabo
+                alias eius commodi eligendi autem quibusdam veniam rerum
+                dignissimos voluptatum, quas tenetur repellendus vero.
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt impedit officia, qui hic omnis asperiores explicabo
+                alias eius commodi eligendi autem quibusdam veniam rerum
+                dignissimos voluptatum, quas tenetur repellendus vero.
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Time line Section -->
+
+    <!-- Start Features  Section -->
+    <div class="features">
+      <div class="container">
+        <h2>Our Features</h2>
+        <div class="feat-box">
+          <img src="images/01.jpeg" />
+          <h4>Development</h4>
+          <p>
+            We Are professional marketeers, We will do anything you imagine in
+            no time
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/02.jpeg" />
+          <h4>Apps</h4>
+          <p>
+            We Are professional marketeers, We will do anything you imagine in
+            no time
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/03.jpeg" />
+          <h4>Design</h4>
+          <p>
+            We Are professional marketeers, We will do anything you imagine in
+            no time
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/04.jpeg" />
+          <h4>Programming</h4>
+          <p>
+            We Are professional marketeers, We will do anything you imagine in
+            no time
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/05.jpeg" />
+          <h4>Marketing</h4>
+          <p>
+            We Are professional marketeers, We will do anything you imagine in
+            no time
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/06.jpeg" />
+          <h4>SEO</h4>
+          <p>
+            We Are professional marketeers, We will do anything you imagine in
+            no time
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features  Section -->
+
+    <!-- Start Testimonal  Section -->
+    <div class="testimonal">
+      <div class="container">
+        <h2>Testimonal</h2>
+        <div class="test-box">
+          <p>Iam very happy to work in this campany</p>
+          <div class="personal-info">
+            <img src="http://placehold.it/80/DDD" />
+            <h4>Naguib</h4>
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div class="test-box">
+          <p>Iam very happy to work in this campany</p>
+          <div class="personal-info">
+            <img src="http://placehold.it/80/DDD" />
+            <h4>Faissal</h4>
+            <p>Flutter Developer</p>
+          </div>
+        </div>
+        <div class="test-box">
+          <p>Iam very happy to work in this campany</p>
+          <div class="personal-info">
+            <img src="http://placehold.it/80/DDD" />
+            <h4>Abdo</h4>
+            <p>Embdded Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonal  Section -->
+
+    <!-- Strat Contact-us Section -->
+    <div class="contact-us">
+      <div class="container">
+        <h2>Conact Us</h2>
+        <form>
+          <div class="left">
+            <input
+              type="text"
+              placeholder="Username"
+              name="user"
+              autocomplete="off"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              autocomplete="off"
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              name="pass"
+              autocomplete="new-password"
+            />
+            <input
+              type="text"
+              placeholder="Phone"
+              name="phone"
+              autocomplete="off"
+            />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact-Us  Section -->
+
+    <!-- Start Footer  Section -->
+    <div class="footer">
+      Created By Love <i class="fa fa-heart"></i> By Naguib
+    </div>
+    <!-- End Footer Section -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
